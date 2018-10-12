@@ -1,0 +1,164 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    border: 1px solid skyblue;
+    height: auto;
+    width: 1200px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+#header {
+    background-color: #eeeeee;
+    height: 50px;
+    text-align: center;
+}
+
+#menu ul {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    background-color: green;
+}
+
+    ul li {
+        width: 180px;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: white;
+        margin: 15px;
+        box-shadow: 5px 5px 104px grey;
+        border-radius: 10px;
+        border: 1px solid white;
+    }
+
+        ul li a {
+            color: white;
+            display: block;
+            text-decoration: none;
+        }
+
+            ul li a:hover {
+                background-color: white;
+                color: green;
+                box-shadow: 5px 5px 104px grey;
+                border-radius: 10px;
+            }
+
+
+#main {
+    height: 600px;
+    width: 920px;
+    margin: auto;
+}
+
+#first {
+    background-color: rgb(86, 146, 86);
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin-left: 3px;
+    box-shadow: 5px 5px 104px grey;
+    border-radius: 10px;
+}
+
+#mainform {
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 104px grey;
+    border-radius: 10px;
+}
+
+#formbg {
+    background-color: rgb(86, 146, 86);
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin: auto;
+    margin-left: 3px;
+    box-shadow: 5px 5px 104px grey;
+    border-radius: 10px;
+}
+
+.textbox {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.dropdownlist {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.labelMsg {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+}
+
+.btn {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#footer {
+    background-color: forestgreen;
+    height: 50px;
+    border: 1px solid green;
+    text-align: center;
+    padding-top: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#productTable {
+    width: 1050px;
+    margin: auto;
+    font-size: larger;
+}
+
+#body_GridView1 {
+    text-align: center;
+}
+
+#taxTable {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    font-size: larger;
+}

@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div id="wrap">
+            <div id="header">
+                <h1 style="color: green; margin: 15px;">Database Final Project</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="update_product.aspx">Change Product Name</a></li>
+                    <li><a href="add_product.aspx">Add New Product</a> </li>
+                    <li><a href="calculate_tax.aspx">Calculate Tax</a></li>
+                    <li><a href="order_status.aspx">Order Status</a></li>
+                </ul>
+            </div>
+            <br />
+
+
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <br />
+            <div id="footer">
+               <h3>&copy; Barbara - Jasneet - Neha - Gurjit - Sukhmandeep</h3> 
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
